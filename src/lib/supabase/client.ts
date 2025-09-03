@@ -12,6 +12,3 @@ export const supabase = supabaseUrl && supabaseAnonKey
       });
       return null;
     })();
-    url: !!supabaseUrl,
-    key: !!supabaseAnonKey
-  });
